@@ -1,6 +1,8 @@
-dhlab>=2.9.4
+dhlab
 pandas
 streamlit
 requests==2.23.0
 Pillow==7.0.0
 scipy
+folium
+streamlit-folium
