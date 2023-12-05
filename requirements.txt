@@ -6,3 +6,4 @@ Pillow==7.0.0
 scipy
 folium
 streamlit-folium
+openpyxl
