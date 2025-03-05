@@ -45,7 +45,7 @@ def get_ngram(words=None,
     else:
         corpus = 'avis'
         
-    a = ng.nb_ngram.nb_ngram(words,
+    a = ng.nb_ngram.nb_ngram(' ,'.join(words),
              corpus = corpus,
              smooth = 1,
              years = (from_year, to_year),
